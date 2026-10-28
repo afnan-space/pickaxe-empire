@@ -1,0 +1,21 @@
+{
+  "name": "Pickaxe Empire",
+  "short_name": "Pickaxe Empire",
+  "description": "Build your mining empire on Telegram. Mine PXE across ten ancient mines.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090604",
+  "theme_color": "#090604",
+  "icons": [
+    {
+      "src": "/assets/icons/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

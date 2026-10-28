@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Playwright & test traces
+.playwright-mcp/
+screenshot-*.png
+
+# Logs & temp files
+*.log
+.DS_Store
+Thumbs.db
