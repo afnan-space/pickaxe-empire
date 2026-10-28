@@ -56,8 +56,7 @@ export const Header: React.FC = () => {
             <a
               className="btn btn-torch btn-sm"
               href={SITE.miniApp}
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={closeMenu}
             >
               Play now
             </a>
@@ -100,8 +99,6 @@ export const Header: React.FC = () => {
         <a
           className="btn btn-torch"
           href={SITE.miniApp}
-          target="_blank"
-          rel="noopener noreferrer"
           onClick={closeMenu}
         >
           <span
@@ -114,4 +111,3 @@ export const Header: React.FC = () => {
     </>
   );
 };
-

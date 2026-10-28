@@ -94,17 +94,13 @@ export const CoinSection: React.FC = () => {
                 <a
                   className="btn btn-line btn-sm"
                   id="tokenView"
-                  href={`https://tonviewer.com/${encodeURIComponent(SITE.jettonMaster)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#contract"
                 >
                   Tonviewer
                 </a>
                 <a
                   className="btn btn-torch btn-sm"
                   href={SITE.buyUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Buy PXE
                 </a>

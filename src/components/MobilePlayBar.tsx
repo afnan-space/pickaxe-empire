@@ -41,8 +41,6 @@ export const MobilePlayBar: React.FC<MobilePlayBarProps> = ({ heroActionsNode })
       <a
         className="btn btn-torch"
         href={SITE.miniApp}
-        target="_blank"
-        rel="noopener noreferrer"
         tabIndex={show ? 0 : -1}
       >
         Play

@@ -42,8 +42,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onHeroActionsRef }) =>
           <a
             className="btn btn-torch btn-lg"
             href={SITE.miniApp}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <span
               className="ico"
